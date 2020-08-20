@@ -27,8 +27,6 @@ public class test_alza {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("[href=\"/flashdisk-prenosne-usb-disky/18842861.htm\"]")));
 
         driver.findElement(By.cssSelector("[href=\"/flashdisk-prenosne-usb-disky/18842861.htm\"]")).click();
-
-        // close browser
         driver.close();
     }
 
